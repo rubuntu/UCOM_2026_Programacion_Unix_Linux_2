@@ -1,4 +1,4 @@
-# Laboratorio 04: DemostraciÃ³n y DetecciÃ³n de Deadlock
+# Laboratorio 04: Demostración y Detección de Deadlock
 
 Crea `deadlock_demo.c`:
 ```c
@@ -11,7 +11,7 @@ pthread_mutex_t lockB = PTHREAD_MUTEX_INITIALIZER;
 
 void* thread1_fn(void* arg) {
     pthread_mutex_lock(&lockA);
-    printf("Hilo 1: AdquiriÃ³ Lock A\n");
+    printf("Hilo 1: Adquirió Lock A\n");
     sleep(1);
     printf("Hilo 1: Esperando Lock B...\n");
     pthread_mutex_lock(&lockB);
@@ -22,7 +22,7 @@ void* thread1_fn(void* arg) {
 
 void* thread2_fn(void* arg) {
     pthread_mutex_lock(&lockB);
-    printf("Hilo 2: AdquiriÃ³ Lock B\n");
+    printf("Hilo 2: Adquirió Lock B\n");
     sleep(1);
     printf("Hilo 2: Esperando Lock A...\n");
     pthread_mutex_lock(&lockA);
@@ -45,4 +45,4 @@ Compilar y ejecutar:
 gcc deadlock_demo.c -lpthread -o deadlock_demo
 ./deadlock_demo
 ```
-*Observa el interbloqueo y diagnostÃ­calo con `gdb` o `strace`.*
+*Observa el interbloqueo y diagnostícalo con `gdb` o `strace`.*

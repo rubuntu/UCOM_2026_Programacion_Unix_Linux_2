@@ -1,4 +1,4 @@
-# Laboratorio 03: FunciÃ³n con Payload JSON
+# Laboratorio 03: Función con Payload JSON
 
 Crea `json_parser.py`:
 ```python
@@ -8,9 +8,9 @@ import json
 def handle():
     try:
         payload = json.load(sys.stdin)
-        nombre = payload.get("nombre", "AnÃ³nimo")
+        nombre = payload.get("nombre", "Anónimo")
         resultado = {
-            "saludo": f"Bienvenido/a {nombre} al mÃ³dulo Serverless!",
+            "saludo": f"Bienvenido/a {nombre} al módulo Serverless!",
             "longitud_nombre": len(nombre),
             "status": "OK"
         }

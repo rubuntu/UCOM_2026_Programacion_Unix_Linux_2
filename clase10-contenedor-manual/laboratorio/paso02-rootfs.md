@@ -1,6 +1,6 @@
-# Paso 2: PreparaciÃ³n del Rootfs (Alpine Linux)
+# Paso 2: Preparación del Rootfs (Alpine Linux)
 
-Para que el contenedor tenga sus propios binarios (`/bin/sh`, `/bin/ls`, etc.), descargamos un sistema de archivos mÃ­nimo:
+Para que el contenedor tenga sus propios binarios (`/bin/sh`, `/bin/ls`, etc.), descargamos un sistema de archivos mínimo:
 
 ```bash
 mkdir -p /tmp/my_rootfs

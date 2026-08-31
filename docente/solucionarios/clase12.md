@@ -1,6 +1,6 @@
 # Solucionario - Clase 12 (Docente)
 
-### SoluciÃ³n Registro Concurrente con `flock`
+### Solución Registro Concurrente con `flock`
 ```c
 #include <stdio.h>
 #include <stdlib.h>

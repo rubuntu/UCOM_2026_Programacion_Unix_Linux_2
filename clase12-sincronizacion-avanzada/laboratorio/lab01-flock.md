@@ -18,7 +18,7 @@ int main() {
         exit(1);
     }
 
-    printf("Lock adquirido por PID %d. Procesando secciÃ³n crÃ­tica...\n", getpid());
+    printf("Lock adquirido por PID %d. Procesando sección crítica...\n", getpid());
     sleep(10);
 
     printf("Liberando lock...\n");

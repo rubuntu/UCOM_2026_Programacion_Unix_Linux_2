@@ -25,4 +25,4 @@ Cambiar el hostname del sistema de forma aislada sin afectar al host principal.
    ```bash
    hostname
    ```
-   *ObservaciÃ³n:* El host conserva su nombre original intacto.
+   *Observación:* El host conserva su nombre original intacto.

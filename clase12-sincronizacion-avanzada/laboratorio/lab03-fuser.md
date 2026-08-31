@@ -1,4 +1,4 @@
-# Laboratorio 03: IdentificaciÃ³n y Desbloqueo con `fuser`
+# Laboratorio 03: Identificación y Desbloqueo con `fuser`
 
 1. Identificar el PID que retiene un archivo:
    ```bash

@@ -1,3 +1,3 @@
-# Laboratorio 05: PrevenciÃ³n de Deadlocks con Timeouts y Orden JerÃ¡rquico
+# Laboratorio 05: Prevención de Deadlocks con Timeouts y Orden Jerárquico
 
-Modifica el cÃ³digo utilizando `pthread_mutex_timedlock` o asegurando que ambos hilos adquieran siempre primero `Lock A` y luego `Lock B`.
+Modifica el código utilizando `pthread_mutex_timedlock` o asegurando que ambos hilos adquieran siempre primero `Lock A` y luego `Lock B`.

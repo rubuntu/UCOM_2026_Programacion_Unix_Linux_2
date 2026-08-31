@@ -1,6 +1,6 @@
 # Solucionario - Clase 11 (Docente)
 
-### SoluciÃ³n `calculadora.py`
+### Solución `calculadora.py`
 ```python
 import sys, json
 
@@ -16,11 +16,11 @@ def main():
         elif op == "multiplicar": res = a * b
         elif op == "dividir":
             if b == 0:
-                print(json.dumps({"error": "DivisiÃ³n por cero", "status": "fail"}))
+                print(json.dumps({"error": "División por cero", "status": "fail"}))
                 return
             res = a / b
         else:
-            print(json.dumps({"error": "OperaciÃ³n desconocida", "status": "fail"}))
+            print(json.dumps({"error": "Operación desconocida", "status": "fail"}))
             return
 
         print(json.dumps({"resultado": res, "operacion": op, "status": "success"}))

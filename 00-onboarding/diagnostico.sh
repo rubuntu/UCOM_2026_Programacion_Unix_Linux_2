@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "================================"
-echo "DIAGNÃ“STICO DEL ENTORNO"
+echo "DIAGNÓSTICO DEL ENTORNO"
 echo "================================"
 
 check() {
@@ -45,4 +45,4 @@ echo "--- Namespaces disponibles ---"
 ls -l /proc/self/ns
 
 echo
-echo "âœ… entorno validado"
+echo "✅ entorno validado"

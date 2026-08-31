@@ -1,8 +1,8 @@
-# Laboratorio 02: DiagnÃ³stico con `lsof`
+# Laboratorio 02: Diagnóstico con `lsof`
 
-`lsof` (*List Open Files*) permite auditar en tiempo real quÃ© procesos retienen descriptores abiertos:
+`lsof` (*List Open Files*) permite auditar en tiempo real qué procesos retienen descriptores abiertos:
 
-1. Listar procesos que tienen abierto un archivo especÃ­fico:
+1. Listar procesos que tienen abierto un archivo específico:
    ```bash
    lsof /tmp/archivo_critico.lock
    ```

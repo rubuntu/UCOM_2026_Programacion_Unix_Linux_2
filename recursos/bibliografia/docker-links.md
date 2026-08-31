@@ -1,4 +1,4 @@
-# Recursos y BibliografÃ­a: Docker e Internals de Contenedores
+# Recursos y Bibliografía: Docker e Internals de Contenedores
 
 1. **Docker Engine Overview & Architecture**: [https://docs.docker.com/get-started/overview/](https://docs.docker.com/get-started/overview/)
 2. **Linux Containers Internals (Liz Rice Talk & Repo)**: [https://github.com/lizrice/containers-from-scratch](https://github.com/lizrice/containers-from-scratch)

@@ -15,7 +15,7 @@ USER appuser
 CMD ["python3", "app.py"]
 ```
 
-CompilaciÃ³n y ejecuciÃ³n con lÃ­mites:
+Compilación y ejecución con límites:
 ```bash
 docker build -t mi-app-optimizada .
 docker run --rm --cpus="0.5" -m "50m" mi-app-optimizada

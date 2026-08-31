@@ -1,7 +1,7 @@
 # Laboratorio 01: PID Namespace
 
 ## Objetivo
-Observar cÃ³mo un proceso crea su propio Ã¡rbol de procesos aislado donde se convierte en `PID 1`.
+Observar cómo un proceso crea su propio árbol de procesos aislado donde se convierte en `PID 1`.
 
 ## Paso a paso
 
@@ -19,6 +19,6 @@ Observar cÃ³mo un proceso crea su propio Ã¡rbol de procesos aislado donde se
    ```bash
    ps aux
    ```
-   *ObservaciÃ³n:* Ãšnicamente verÃ¡s `PID 1 (bash)` y el comando `ps`.
+   *Observación:* Únicamente verás `PID 1 (bash)` y el comando `ps`.
 
 4. Escribe `exit` para regresar al entorno original.

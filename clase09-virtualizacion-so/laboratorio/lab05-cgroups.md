@@ -5,7 +5,7 @@ Limitar el uso de memoria RAM de un proceso mediante el pseudofilesystem `/sys/f
 
 ## Paso a paso
 
-1. Verificar versiÃ³n de cgroups:
+1. Verificar versión de cgroups:
    ```bash
    mount | grep cgroup
    ```
@@ -15,12 +15,12 @@ Limitar el uso de memoria RAM de un proceso mediante el pseudofilesystem `/sys/f
    sudo mkdir -p /sys/fs/cgroup/ucom_limit
    ```
 
-3. Fijar lÃ­mite mÃ¡ximo de memoria a 20MB (20971520 bytes):
+3. Fijar límite máximo de memoria a 20MB (20971520 bytes):
    ```bash
    echo "20971520" | sudo tee /sys/fs/cgroup/ucom_limit/memory.max || true
    ```
 
 4. Comprobar funcionamiento con Docker aplicando cgroups transparentemente:
    ```bash
-   docker run --rm -m 20m alpine sh -c "echo 'LÃ­mite de 20MB fijado correctamente en cgroups'"
+   docker run --rm -m 20m alpine sh -c "echo 'Límite de 20MB fijado correctamente en cgroups'"
    ```

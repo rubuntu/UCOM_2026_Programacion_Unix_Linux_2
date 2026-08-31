@@ -1,15 +1,15 @@
 # Flujos STDIN y STDOUT en Funciones FaaS
 
-Una funciÃ³n serverless bajo el patrÃ³n watchdog clÃ¡sico no necesita levantar un servidor HTTP interno; solo lee de la entrada estÃ¡ndar y escribe a la salida estÃ¡ndar:
+Una función serverless bajo el patrón watchdog clásico no necesita levantar un servidor HTTP interno; solo lee de la entrada estándar y escribe a la salida estándar:
 
 ```python
 import sys
 
 def main():
-    # Leer entrada enviada por el gateway vÃ­a stdin
+    # Leer entrada enviada por el gateway vía stdin
     raw_input = sys.stdin.read()
     
-    # Procesar lÃ³gica
+    # Procesar lógica
     output = f"Procesado: {raw_input.upper()}"
     
     # Responder escribiendo en stdout

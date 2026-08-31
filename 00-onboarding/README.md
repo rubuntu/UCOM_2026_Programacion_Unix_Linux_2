@@ -1,16 +1,16 @@
-# GuÃ­a de InstalaciÃ³n y VerificaciÃ³n
+# Guía de Instalación y Verificación
 
 ## Objetivo
-Verificar que el entorno de desarrollo y laboratorio estÃ¡ completamente operativo antes de iniciar la **Clase 9**.
+Verificar que el entorno de desarrollo y laboratorio está completamente operativo antes de iniciar la **Clase 9**.
 
 **Tiempo estimado:** 10 minutos.
 
 ---
 
-## Pasos de VerificaciÃ³n
+## Pasos de Verificación
 
 ### Paso 1: Abrir la terminal en el Codespace
-Verifica tu versiÃ³n de kernel Linux ejecutando:
+Verifica tu versión de kernel Linux ejecutando:
 ```bash
 uname -a
 ```
@@ -40,4 +40,4 @@ bash 00-onboarding/verificacion.sh
 bash 00-onboarding/diagnostico.sh
 ```
 
-Debe mostrar: `âœ… entorno validado`.
+Debe mostrar: `✅ entorno validado`.

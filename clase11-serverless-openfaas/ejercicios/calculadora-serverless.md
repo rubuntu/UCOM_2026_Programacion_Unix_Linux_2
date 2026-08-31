@@ -1,6 +1,6 @@
-# Ejercicio: Calculadora AritmÃ©tica Serverless
+# Ejercicio: Calculadora Aritmética Serverless
 
-Implementa una funciÃ³n FaaS en Python (`calculadora.py`) que reciba por `stdin` el siguiente JSON:
+Implementa una función FaaS en Python (`calculadora.py`) que reciba por `stdin` el siguiente JSON:
 ```json
 {
   "operacion": "multiplicar",
@@ -16,4 +16,4 @@ Y responda en `stdout`:
   "status": "success"
 }
 ```
-Soporta las operaciones: `sumar`, `restar`, `multiplicar`, `dividir` (manejando divisiÃ³n por cero).
+Soporta las operaciones: `sumar`, `restar`, `multiplicar`, `dividir` (manejando división por cero).

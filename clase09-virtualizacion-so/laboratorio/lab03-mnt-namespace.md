@@ -1,7 +1,7 @@
 # Laboratorio 03: Mount Namespace
 
 ## Objetivo
-Demostrar cÃ³mo los montajes realizados dentro de un Mount Namespace no afectan al host ni a otros procesos.
+Demostrar cómo los montajes realizados dentro de un Mount Namespace no afectan al host ni a otros procesos.
 
 ## Paso a paso
 
@@ -26,4 +26,4 @@ Demostrar cÃ³mo los montajes realizados dentro de un Mount Namespace no afecta
    ```bash
    ls /tmp/test_mount_host
    ```
-   *ObservaciÃ³n:* En el host el directorio estÃ¡ vacÃ­o; el montaje es invisible fuera del namespace.
+   *Observación:* En el host el directorio está vacío; el montaje es invisible fuera del namespace.

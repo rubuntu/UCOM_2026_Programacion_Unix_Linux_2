@@ -1,4 +1,4 @@
-# Laboratorio 04: Servidor HTTP Gateway MÃ­nimo
+# Laboratorio 04: Servidor HTTP Gateway Mínimo
 
 Crea `gateway_server.py`:
 ```python

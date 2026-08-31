@@ -1,4 +1,4 @@
-# Laboratorio 01: Entorno de SimulaciÃ³n Serverless
+# Laboratorio 01: Entorno de Simulación Serverless
 
 En este laboratorio utilizaremos un simulador de watchdog en Python que emula el comportamiento exacto de OpenFaaS.
 
